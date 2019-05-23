@@ -10,3 +10,7 @@ nav ul{
   margin: 0 auto !important;
   padding-right: 134px !important;
 }
+
+.alert {
+  display:none;
+}

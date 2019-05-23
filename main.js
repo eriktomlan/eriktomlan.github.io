@@ -7,5 +7,31 @@ $(document).ready(function () {
 function handleSubmit(event) {
   event.preventDefault();
 
-  console.log('submit');
+  var msg = $('#msg').val();
+  var email = $('#email').val();
+
+  var data = {
+    to: "erik.tomlan@gmail.com",
+    subject: "corageo.github.io",
+    body: msg,
+    from: email
+  }
+
+  $.ajax({
+    type: "POST",
+    url: "https://stored.azurewebsites.net/api/mail",
+    headers: {
+      "Authorization": 'Bearer ' + token
+    },
+    data: JSON.stringify(data),
+    contentType: "application/json"
+  })
+    .done(function () {
+      console.log('OK');
+      document.getElementsByClassName("alert")[0].style.display = "block";
+    })
+    .fail(function (error) {
+      console.log(error);
+      document.getElementsByClassName("alert")[1].style.display = "block";
+    });
 }
