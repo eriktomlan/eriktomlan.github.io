@@ -1,43 +1,43 @@
 .subheading {
-  font-weight: 600;
+  font-weight                   : 600;
 }
 
 .date {
-  min-width: 18rem;
+  min-width                     : 18rem;
 }
 
 nav ul{
-  margin: 0 auto !important;
-  padding-right: 134px !important;
+  margin                        : 0 auto !important;
+  padding-right                 : 134px !important;
 }
 
 .alert {
-  display:none;
+  display                       : none;
 }
 
 
 /* ---- reset ---- */
 
 body {
-  margin: 0;
+  margin                        : 0;
 }
 
 
 /* ---- particles.js container ---- */
 
 #particles-js {
-  background-color: #b61924;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
+  background-color              : #b61924;
+  position                      : fixed;
+  top                           : 0;
+  right                         : 0;
+  bottom                        : 0;
+  left                          : 0;
+  z-index                       : 0;
 }
 
 #overlay {
-  position: relative;
-  padding: 50px;
+  position                      : relative;
+  padding                       : 50px;
 }
 
 
@@ -46,76 +46,76 @@ body {
 
 
 html, body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
+	width                          : 100%;
+	height                         : 100%;
+	margin                         : 0;
 }
 
 body {
-	font-family:'Lato', sans-serif !important;
-	font-size: 13pt !important;
-	font-weight: 300 !important;
+	font-family                    : 'Lato', sans-serif !important;
+	font-size                      : 13pt !important;
+	font-weight                    : 300 !important;
 }
 
 .container-fluid {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+    padding-right               : 0px !important;
+    padding-left                : 0px !important;
 }
 #myPageContent, section { 
-	height:100% !important; 
-	width:100% !important;
+	height                         : 100% !important;
+	width                          : 100% !important;
 }
 
 
 /* Slider */
 #textSlider.row {
-	position: relative;
+	position                       : relative;
 
-	width: 100% !important;
+	width                          : 100% !important;
 }
 #textSlider div {
-	color:yellow;
-	font-family: 'Lato', sans-serif;
+	color                          : yellow;
+	font-family                    : 'Lato', sans-serif;
 	
 }
 
 .iamCol {
-    text-align: right;
-	float: left;
-	font-weight: 300;
-	font-size:30pt;
+    text-align                  : right;
+	float                          : left;
+	font-weight                    : 300;
+	font-size                      : 30pt;
 }
 .iamCol p:nth-child(2) { margin-top: -20pt !important; }
 .slideCol {
-	text-align: left;
-    overflow: hidden;
-	font-weight: 900;
-	font-size:70pt;
-	display: block;
-	white-space: nowrap;
+	text-align                     : left;
+    overflow                    : hidden;
+	font-weight                    : 900;
+	font-size                      : 70pt;
+	display                        : block;
+	white-space                    : nowrap;
 }
-.slideCol p { margin: 0px !important; }
+.slideCol p { margin            : 0px !important; }
 
 .scroller {
-   height: 70pt;
-   line-height: 70pt;
-   overflow: hidden;
+   height                       : 70pt;
+   line-height                  : 70pt;
+   overflow                     : hidden;
 }
-.scroller .inner { animation: 10s normal infinite running scroll; }
+.scroller .inner { animation    : 10s normal infinite running scroll; }
 @keyframes scroll {
-   0%  	{margin-top: 0px;}
-   15% 	{margin-top: 0px;}
+   0%  	{margin-top             : 0px;}
+   15% 	{margin-top             : 0px;}
 
-   25%  {margin-top: -70pt;}
-   40%  {margin-top: -70pt;}
+   25%  {margin-top             : -70pt;}
+   40%  {margin-top             : -70pt;}
    
-   50%  {margin-top: -140pt;}
-   65%  {margin-top: -140pt;}
+   50%  {margin-top             : -140pt;}
+   65%  {margin-top             : -140pt;}
 
-   75%  {margin-top: -210pt;}
-   90%  {margin-top: -210pt;}
+   75%  {margin-top             : -210pt;}
+   90%  {margin-top             : -210pt;}
 
-   100% {margin-top: 0px;}
+   100% {margin-top             : 0px;}
 }
 
 
@@ -125,102 +125,102 @@ body {
 @media only screen and (min-width : 320px) and (max-width : 479px) {
   #slnko {display: none;}
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-    .iamCol { text-align: center; font-size:20pt; }
-	.iamCol p { display: inline !important; }
-	.slideCol { font-size: 25pt; text-align: center; margin-top: -20px; }
+    .iamCol { text-align        : center; font-size:20pt; }
+	.iamCol p { display            : inline !important; }
+	.slideCol { font-size          : 25pt; text-align: center; margin-top: -20px; }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) and (max-width : 765px) {
   #slnko {display: none;}
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-    .iamCol { text-align: center; font-size:25pt; }
-	.iamCol p { display: inline !important; }
-	.slideCol { font-size: 38pt; text-align: center; margin-top: -20px; }
+    .iamCol { text-align        : center; font-size:25pt; }
+	.iamCol p { display            : inline !important; }
+	.slideCol { font-size          : 38pt; text-align: center; margin-top: -20px; }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 992px) {
   #slnko {display: none;}
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-	.iamCol { text-align: center; font-size:30pt; }
-	.iamCol p { display: inline !important; }
-	.slideCol { font-size: 50pt; text-align: center; margin-top: 5px; }
+	.iamCol { text-align           : center; font-size:30pt; }
+	.iamCol p { display            : inline !important; }
+	.slideCol { font-size          : 50pt; text-align: center; margin-top: 5px; }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-	.iamCol { text-align: right; font-size:30pt; }
-	.slideCol { font-size: 55pt; text-align: left; }
+	.iamCol { text-align           : right; font-size:30pt; }
+	.slideCol { font-size          : 55pt; text-align: left; }
 }
 
 .sun {
-	position: absolute;
-	top: 150px;
-	left: 150px;
-	height: 250px;
-	width: 250px;
-	border-radius: 50%;
-	background-color: #FAE62D;
-	box-shadow: inset -30px -30px #FCC000;
+	position                       : absolute;
+	top                            : 150px;
+	left                           : 150px;
+	height                         : 250px;
+	width                          : 250px;
+	border-radius                  : 50%;
+	background-color               : #FAE62D;
+	box-shadow                     : inset -30px -30px #FCC000;
 }
 .sun:before {
-	content: "";
-	position: absolute;
-	z-index: -1;
-	background-color: #FCC000;
-	height: 280px;
-	width: 280px;
-	border-radius: 50%;
-	top: -15px;
-	left: -15px;
-	box-shadow:
+	content                        : "";
+	position                       : absolute;
+	z-index                        : -1;
+	background-color               : #FCC000;
+	height                         : 280px;
+	width                          : 280px;
+	border-radius                  : 50%;
+	top                            : -15px;
+	left                           : -15px;
+	box-shadow                     : 
 		0 0 0 40px rgba(252, 192, 0, 0.1),
 		0 0 0 75px rgba(252, 192, 0, 0.1),
 		0 0 0 110px rgba(252, 192, 0, 0.1),
 		0 0 0 145px rgba(252, 192, 0, 0.1);
-		position: absolute;
+		position                      : absolute;
 }
 .face {
-	position: absolute;
-	top: 110px;
-	left: 70px;
-	animation: face 10s linear infinite;
+	position                       : absolute;
+	top                            : 110px;
+	left                           : 70px;
+	animation                      : face 10s linear infinite;
 }
 .eyes {
-	height: 20px;
-	width: 20px;
-	border-radius: 50%;
-	background-color: #2A003F;
-	position: absolute;
-	box-shadow: 80px 0 #2A003F;
-	animation: eyes 7s linear infinite 2s;
+	height                         : 20px;
+	width                          : 20px;
+	border-radius                  : 50%;
+	background-color               : #2A003F;
+	position                       : absolute;
+	box-shadow                     : 80px 0 #2A003F;
+	animation                      : eyes 7s linear infinite 2s;
 }
 .mouth {
-	height: 43px;
-	width: 50px;
-	border-radius: 50%;
-	border: 10px solid;
-	border-color: transparent transparent #2A003F;
-	position: absolute;
-	top: 20px;
-	left: 20px;
+	height                         : 43px;
+	width                          : 50px;
+	border-radius                  : 50%;
+	border                         : 10px solid;
+	border-color                   : transparent transparent #2A003F;
+	position                       : absolute;
+	top                            : 20px;
+	left                           : 20px;
 }
 @keyframes eyes {
 	2% {
-		height: 4px;
-		top: 8px;
+		height                        : 4px;
+		top                           : 8px;
 	}
 	4% {
-		height: 20px;
-		top: 0;
+		height                        : 20px;
+		top                           : 0;
 	}
 }
 @keyframes face {
-	10% {left: 10px;}
-	20% {left: 10px;}
-	40% {left: 150px;}
-	50% {left: 150px;}
-	60% {left: 70px;}
+	10% {left                      : 10px;}
+	20% {left                      : 10px;}
+	40% {left                      : 150px;}
+	50% {left                      : 150px;}
+	60% {left                      : 70px;}
 }
