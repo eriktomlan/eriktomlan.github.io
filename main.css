@@ -123,6 +123,7 @@ body {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
+  #slnko {display: none;}
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
     .iamCol { text-align: center; font-size:20pt; }
 	.iamCol p { display: inline !important; }
@@ -131,6 +132,7 @@ body {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) and (max-width : 765px) {
+  #slnko {display: none;}
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
     .iamCol { text-align: center; font-size:25pt; }
 	.iamCol p { display: inline !important; }
@@ -139,6 +141,7 @@ body {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 992px) {
+  #slnko {display: none;}
 	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
 	.iamCol { text-align: center; font-size:30pt; }
 	.iamCol p { display: inline !important; }
